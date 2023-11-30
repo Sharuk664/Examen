@@ -1,0 +1,11 @@
+.logo__nav{
+    display: flex;
+    align-self: center;
+    gap: 32px;
+    font-weight: 700;
+}
+
+.logo span {
+    color: var(--white);
+    font-size: 40px;
+}

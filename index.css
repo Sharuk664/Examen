@@ -1,0 +1,68 @@
+@import url('./CSS/header.css');
+@import url('./CSS/icons.css');
+@import url('./CSS/logos.css');
+
+:root {
+    --white: #fff;
+    --black: #000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-inline-size: 1366px;
+    padding-inline-end: 16px;
+    padding-inline-start: 16px;
+    margin: auto;
+}
+
+body {
+    height: 1980px;
+    background-image: url(./IMG/Space-Background-Images.jpg);
+    border: 1px solid red;
+    background-size: cover;
+    font-family: 'Playfair Display', serif;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(8px);
+}
+
+.header__content {
+    display: flex;
+    padding: 32px 0;
+    justify-content: space-between;
+}
+
+.nav ul {
+    display: flex;
+    gap: 16px;
+}
+
+.menu__item {
+list-style: none;
+}
+
+.menu__item a {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.icons__nav {
+    display: flex;
+    gap: 16px;
+    font-size: 16px;
+    align-items: center;
+  }
+  
+  .icons__nav i{
+    cursor: pointer;
+    color: var(--white #fff);
+  }
